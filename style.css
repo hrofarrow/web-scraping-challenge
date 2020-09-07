@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(to bottom right, #451804, #fda600);
+  height: 100%;
+}
+
+section {
+  background-color: #f0e7e7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section,
+img {
+  border-radius: 5px;
+}
+
+#footer a:link,
+#footer a:visited {
+  color: #dc143c;
+}
+
+#footer a:hover {
+  text-decoration: line-through;
+}
+
+#scraper {
+  background-image: url("../img/landing.jpg") !important;
+  color: #fff;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
